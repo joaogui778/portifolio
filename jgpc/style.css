@@ -1,0 +1,11 @@
+.banner{
+    height: 100px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.rodape{
+    padding: 40px;
+}
