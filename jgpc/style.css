@@ -1,11 +1,43 @@
 .banner{
     height: 100px;
+     
 }
+
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+     background: linear-gradient(
+         120deg,
+         red,
+         blue
+     );
     
 }
 .rodape{
-    padding: 40px;
+    padding: 100px;
+     height: 50px;
+}
+.Meus-Projetos {
+    display: flex;
+    align-items: center;
+     justify-content: space-evenly;
+}
+.banner-texto{
+    background: linear-gradient(
+        120deg,
+        red,
+        black
+    );
+}
+.Projeto{
+    border: 2px solid;
+     display: flex;
+     flex-direction: column;
+      justify-content: center;
+       align-items: center;
+        gap: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 20px;
+
 }
